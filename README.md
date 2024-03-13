@@ -17,7 +17,7 @@ The proposed model architecture involves using convolutional filters to extract 
 As this is a classification problem, we'll evaluate the model's performance using standard classification metrics like accuracy, precision, recall, F1-score, and area under the ROC curve (AUC).
 
 
-Stretch Goal:
+## Stretch Goal:
 
 As a stretch goal, we plan to incorporate historical data combined with our LOB data. By integrating features extracted from the LOB dataset and our historical dataset to train our model, we aim to transform this into a regression model. This type of prediction would be considered as a medium-term timeframe, capturing trends over a period that ranges from days to weeks. This approach ensures we're not solely focusing on immediate short-term movements (minutes or hours) or long-term predictions spanning months or years.
 
@@ -26,28 +26,9 @@ If we proceed with our stretch goal, our work would look like:
 Combination of 2 things: 
 | Short Term  | Long Term |
 | ------------- | ------------- |
-|Dataset: Normalized version of F-1 2010 | Dataset: Historical Stock Price( Yahoo API)   |
-Convolutional Filter (CNN) |
+|Dataset: Normalized version of F-1 2010, Convolutional Filter (CNN) | Dataset: Historical Stock Price( Yahoo API)   | |
 | ------------- | ------------- |
 | LSTM     Baseline: Linear Regression    Evaluation Metric: RMSE  |
-
-
-
-Short Term 
-Long Term 
-
-Dataset: Normalized version of F-1 2010 
-Convolutional Filter (CNN) 
-
-
-
-Dataset: Historical Stock Price( Yahoo API) 
-
-
-LSTM     Baseline: Linear Regression    Evaluation Metric: RMSE 
-
-
-
 
 
 Please upload the link of the GitHub repository of your project work. The repository should contain
