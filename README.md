@@ -28,8 +28,7 @@ Combination of 2 things:
 | Short Term  | Long Term |
 | ------------- | ------------- |
 |Dataset: Normalized version of F-1 2010, Convolutional Filter (CNN) | Dataset: Historical Stock Price( Yahoo API)   | 
-| ------------- | ------------- |
-| LSTM     Baseline: Linear Regression    Evaluation Metric: RMSE  |
+LSTM     Baseline: Linear Regression    Evaluation Metric: RMSE  
 
 
 Please upload the link of the GitHub repository of your project work. The repository should contain
