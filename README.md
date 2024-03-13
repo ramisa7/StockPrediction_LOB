@@ -28,6 +28,9 @@ Combination of 2 things:
 | ------------- | ------------- |
 | Dataset: Normalized version of F-1 2010, Convolutional Filter (CNN) | Dataset: Historical Stock Price( Yahoo API)   | 
 
+| -------------------------- |
+| LSTM    Baseline: Linear Regression  Evaluation Metric: RMSE |
+
 
 
 
